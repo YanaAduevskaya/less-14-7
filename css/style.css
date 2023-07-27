@@ -346,12 +346,14 @@ button:hover, button:active {
     }
     .header_navbar_menu {
         margin-right: 0;
+        flex-wrap: nowrap;
     }
     .logo {
         margin-right: 0;
     }
     .header__flex_cart {
         margin-left: 230px;
+        margin-right: 20px;
     }
     .follow {
         padding: 25px 15% 40px 15%;
