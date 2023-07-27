@@ -319,11 +319,6 @@ button:hover, button:active {
     margin: 0;
 }
 
-
-
-
-
-
 @media screen and (min-width: 1441px) and (max-width: 1920px) {
     .header_navbar__flex {
         justify-content: space-around;
@@ -345,5 +340,107 @@ button:hover, button:active {
     }
 
 }
-    
-
+@media screen and (max-width: 1439px) {
+    .header_navbar__flex {
+        justify-content: space-between;
+    }
+    .header_navbar_menu {
+        margin-right: 0;
+    }
+    .logo {
+        margin-right: 0;
+    }
+    .header__flex_cart {
+        margin-left: 230px;
+    }
+    .follow {
+        padding: 25px 15% 40px 15%;
+    }
+    .follow__grid {
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .buy__grid {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .sets-img {
+        width: 975px;
+        margin: 0 auto;
+    }
+    .sets__flex {
+        width: 975px;
+        margin: 0 auto;
+    }
+    .footer-p {
+        line-height: 20.4px;
+    }
+    .footer-a-p {
+        line-height: 20.4px;
+    }
+}
+@media screen and (max-width: 1330px) {
+    .meet_text {
+        left: 450px;
+    }
+}
+@media screen and (max-width: 1190px) {
+    .sets-img {
+        width: 750px;
+        margin: 0 auto;
+    }
+    .sets__flex {
+        width: 750px;
+        margin: 0 auto;
+    }
+    .meet {
+        padding: 61px 0 61px 110px;
+    }
+    .meet_text {
+        top: 400px;
+        left: 360px;
+    }
+    .footer__flex {
+        justify-content: space-around;
+    }
+    .footer__flex_part1 {
+        margin-right: 30px;
+    }
+    .footer__flex_part2 {
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .meet {
+        padding: 61px 0 61px 135px;
+    }
+    .meet_rel {
+        width: 400px;
+        height: 599px;
+    }
+    .meet_text {
+        top: 55px;
+        left: 300px;
+        padding: 30px;
+    }
+    .meet-h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .meet-p {
+        font-size: 14px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .buy__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .follow__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 900px)
