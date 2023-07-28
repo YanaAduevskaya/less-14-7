@@ -535,11 +535,18 @@ button:hover, button:active {
     }
 }
 @media screen and (max-width: 660px) {
+    .sidenav {
+        width: 60%;
+    }
     .sets-img {
         width: 400px;
     }
     .sets__flex {
         width: 400px;
+        flex-direction: column;
+    }
+    .sets-h3 {
+        margin-bottom: 20px;
     }
     .meet {
         height: 700px;
@@ -609,6 +616,9 @@ button:hover, button:active {
     }
 }
 @media screen and (max-width: 460px) {
+    .sidenav {
+        width: 80%;
+    }
     .meet {
         height: 900px;
     }
@@ -639,9 +649,6 @@ button:hover, button:active {
     }
     .sets__flex {
         width: 250px;
-    }
-    .sets-h3 {
-        font-size: 12px;
     }
     .meet {
         padding-left: 50px;
