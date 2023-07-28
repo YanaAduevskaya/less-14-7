@@ -7,22 +7,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection">
     <link rel="stylesheet" href="css/style.css">
     <title>Dae</title>
 </head>
 <body>
+    <!-- Меню-бургер -->
+    <ul id="slide-out" class="sidenav">
+        <li><img class="logo-burg" src="img/logo.png" alt="logo"></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="#buy">Shop</a></li>
+        <li><a class="waves-effect" href="#sets">The Edit</a></li>
+        <li><a class="waves-effect" href="#meet">Our Story</a></li>
+        <li><a class="waves-effect" href="#follow">Reviews</a></li>
+      </ul>
+
     <header class="header">
         <div class="header_info">Free Shipping on US Orders Over $60</div>
         <div class="header_navbar__flex">
             <ul class="header_navbar_menu">
-                <li class="navbar_menu-item"><a href="#">Shop</a></li>
-                <li class="navbar_menu-item"><a href="#">The Edit</a></li>
-                <li class="navbar_menu-item"><a href="#">Our Story</a></li>
-                <li class="navbar_menu-item"><a href="#">Reviews</a></li>
+                <li class="navbar_menu-item"><a href="#buy">Shop</a></li>
+                <li class="navbar_menu-item"><a href="#sets">The Edit</a></li>
+                <li class="navbar_menu-item"><a href="#meet">Our Story</a></li>
+                <li class="navbar_menu-item"><a href="#follow">Reviews</a></li>
             </ul>
             <img class="logo" src="img/logo.png" alt="logo">
             <div class="header__flex_cart">
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <p class="header__flex_cart-p">Account</p>
                 <img class="header__flex_cart-img" src="img/bag.svg" alt="cart">
                 <p class="header__flex_cart-p-number">0</p>
@@ -37,7 +49,7 @@
             <a href="#"><p class="header_title-text-a">Shop Now</p></a>
         </div>
     </header>
-    <section class="buy">
+    <section class="buy" id="buy">
         <h3 class="buy-h3">Pick a Pretty Bottle</h3>
         <div class="buy__grid">
             <div class="buy__grid-item">
@@ -57,14 +69,14 @@
             </div>
         </div>
     </section>
-    <section class="sets">
+    <section class="sets" id="sets">
         <div class="sets-img"></div>
         <div class="sets__flex">
             <h3 class="sets-h3">Feel the warmth of the desert wherever you are.</h3>
             <a href="#"><h4 class="sets-h4">Shop Sets</h4></a>
         </div>
     </section>
-    <section class="meet">
+    <section class="meet" id="meet">
         <div class="meet_rel">
             <div class="meet_text">
                 <h3 class="meet-h3">Meet Dae</h3>
@@ -73,7 +85,7 @@
             </div>
         </div>
     </section>
-    <section class="follow">
+    <section class="follow" id="follow">
         <h3 class="follow-h3">Follow Us @daehair</h3>
         <div class="follow__grid">
             <div class="follow__grid-item">

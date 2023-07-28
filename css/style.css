@@ -58,6 +58,9 @@ button:hover, button:active {
     height: 56px;
     margin-right: 541px;
 }
+.sidenav-trigger {
+    display: none;
+}
 .header__flex_cart {
     display: flex;
     margin-top: 19px;
@@ -445,4 +448,211 @@ button:hover, button:active {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media screen and (max-width: 900px)
+@media screen and (max-width: 900px) {
+    .header_navbar__flex {
+        justify-content: space-between;
+    }
+    .header_navbar_menu {
+        display: none;
+    }
+    .sidenav-trigger {
+        display: block;
+        height: 40px;
+        margin: 0 20px 0 0;
+    }
+    .material-icons {
+        color: #000;
+        font-size: 40px;
+    }
+    .header__flex_cart {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .header__flex_cart-p {
+        margin-top: 9px;
+    }
+    .header__flex_cart-img {
+        margin-top: 9px;
+    }
+    .header__flex_cart-p-number {
+        margin-top: 9px;
+    }
+    .sidenav {
+        width: 40%;
+    }
+    .logo-burg {
+        width: 78px;
+        height: 36px;
+        margin: 30px 0 30px 30px;
+    }
+    .sidenav .divider {
+        background-color: #F1D3B9;
+        margin: 0 5%;
+        margin-bottom: 30px;
+    }
+    .sidenav .waves-effect {
+        color: #B45F4D;
+        font-size: 25px;
+        line-height: 57.6px;
+        margin-bottom: 30px;
+    }
+    .sets {
+        padding: 24px 30px 50px 30px;
+    }
+    .sets-img {
+        width: 600px;
+    }
+    .sets__flex {
+        width: 600px;
+    }
+    .meet {
+        padding-left: 70px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .meet_rel {
+        width: 250px;
+        height: 375px;
+    }
+    .meet_text {
+        width: 380px;
+        top: 17px;
+        left: 195px;
+        padding: 15px;
+    }
+    .meet-h3 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .meet-p {
+        font-size: 12px;
+        width: 350px;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+    .meet-a-p {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 660px) {
+    .sets-img {
+        width: 400px;
+    }
+    .sets__flex {
+        width: 400px;
+    }
+    .meet {
+        height: 700px;
+        padding-left: 105px;
+    }
+    .meet_text {
+        width: 270px;
+        top: 40px;
+        left: 195px;
+    }
+    .meet-p {
+        width: 240px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .meet {
+        padding-left: 40px;
+    }
+    .follow__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width: 530px) {
+    .header_title-text {
+        padding-left: 30px;
+    }
+    .header_title-text-pr {
+        font-size: 24px;
+    }
+    .buy {
+        padding: 39px 30px 86px 30px;
+    }
+    .buy-img {
+        width: 250px;
+        height: 373px;
+    }
+    .sets-img {
+        width: 300px;
+    }
+    .sets__flex {
+        width: 300px;
+    }
+    .sets-h3 {
+        font-size: 15px;
+    }
+    .meet {
+        height: 800px;
+        padding-left: 30px;
+    }
+    .meet_text {
+        width: 230px;
+        top: 80px;
+        left: 180px;
+    }
+    .meet-p {
+        width: 200px;
+    }
+    .footer__flex {
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .footer__flex_part1 {
+        margin-bottom: 30px;
+    }
+    .footer__flex_part2 {
+        margin: 0 0 30px 0;
+    }
+}
+@media screen and (max-width: 460px) {
+    .meet {
+        height: 900px;
+    }
+    .meet_text {
+        top: 175px;
+        left: 120px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .meet_text {
+        top: 200px;
+        left: 70px;
+    }
+    .header_title-text-pr {
+        width: 250px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .header_navbar__flex {
+        flex-direction: column;
+    }
+    .logo {
+        width: 78px;
+        height: 36px;
+    }
+    .sets-img {
+        width: 250px;
+    }
+    .sets__flex {
+        width: 250px;
+    }
+    .sets-h3 {
+        font-size: 12px;
+    }
+    .meet {
+        padding-left: 50px;
+    }
+    .meet_text {
+        top: 240px;
+        left: 10px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .meet {
+        padding-left: 30px;
+    }
+}
